@@ -7,13 +7,13 @@ var burger = require("../models/burger.js");
 
 router.get("/", function(req, res) {
 
-  burger.all(function (data) {
+  burger.all(function(data) {
     var hbsObj = {
       burgers: data
     };
 
     console.log(hbsObj);
-    res.render("index", "hbsObj");
+    res.render("index", hbsObj);
   });
 });
 
