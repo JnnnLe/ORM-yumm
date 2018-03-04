@@ -13,7 +13,7 @@ router.get("/", function(req, res) {
     };
 
     console.log(hbsObj);
-    res.render("index", ihbsObj);
+    res.render("index", hbsObj);
   });
 });
 
