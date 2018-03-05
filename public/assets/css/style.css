@@ -49,7 +49,9 @@ input#bu {
 }
 
 #footer {
-  color: white;
+  color: black;
   font-size: 20px;
   text-align: center;
+  background-color: white;
+  opacity: 0.45;
 }
