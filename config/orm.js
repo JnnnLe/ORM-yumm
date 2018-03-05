@@ -61,7 +61,7 @@ var orm = {
       if (err) throw err;
       cb(res)
     });
-  };
+  }
 };
 
 module.exports = orm;
