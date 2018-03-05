@@ -25,6 +25,7 @@ form {
   font-family: 'Anton', sans-serif;
   font-size: 32px;
   text-align: center;
+  overflow: scroll;
 
 }
 

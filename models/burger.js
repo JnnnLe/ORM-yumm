@@ -6,11 +6,13 @@ var burger = {
       cb(res);
     });
   },
+
   createOne: function(cols, vals, cb) {
     orm.createOne("burgers", cols, vals, function(res) {
       cb(res);
     });
   },
+  
   updateOne: function(objectColVals, condition, cb) {
     orm.updateOne("burgers", objectColVals, condition, function(res) {
       cb(res);
@@ -18,6 +20,4 @@ var burger = {
   }
 }
 
-
-
-module.exports = burger
+module.exports = burger;

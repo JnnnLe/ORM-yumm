@@ -4,5 +4,6 @@ USE burgerDB;
 CREATE TABLE IF NOT EXISTS burgers (
   id INT NOT NULL AUTO_INCREMENT,
   burger_name VARCHAR (45) NOT NULL,
+  isDevoured BOOLEAN NOT NULL DEFAULT 0,
   PRIMARY KEY (id)
 );

@@ -7,7 +7,7 @@ $(function() {
       isDevoured: newEat
   };
 
-  location.reload()
+  location.reload();
 
   $.ajax("/api/burgers/" + id, {
     type: "PUT",
@@ -15,26 +15,23 @@ $(function() {
   }).then(
     function() {
       console.log("Changed devoured to ", newEat);
-      // location.reload();
     }
   );
 });
 
-$(".create-form").on("submit", function(event) {
-  event.preventDefault();
-  var newBurger = {
-    burger_name: $("#bu").val().trim(),
-    isDevoured: $("[name=name]").val().trim()
-  }
+  $(".create-form").on("submit", function(event) {
+    event.preventDefault();
+    var newBurger = {
+      burger_name: $("#bu").val().trim(),
+      isDevoured: $("[name=name]").val().trim()
+    }
 
-  $.ajax("/api/burgers", {
-    type: "POST",
-    data: newBurger
-  }).then(
-    function() {
-      location.reload()
-    };
-  );
-});
-
+    $.ajax("/api/burgers", {
+      type: "POST",
+      data: newBurger
+    }).then(
+      function() {
+        location.reload()
+    });
+  });
 });
