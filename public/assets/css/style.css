@@ -47,3 +47,9 @@ input#bu {
   width: 25.5%;
   max-height: 10%
 }
+
+#footer {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
