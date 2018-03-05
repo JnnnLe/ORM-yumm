@@ -9,33 +9,41 @@ h1 {
   text-align: center;
 }
 
-h2 {
+h2, h3 {
   font-family: 'Anton', sans-serif;
   font-size: 64px;
   text-align: center;
-  color: white;
+  color: orange;
+}
+
+h3 {
+  font-size: 75px;
+  color: orange;
 }
 
 form {
-    text-align: center;
+  text-align: center;
 }
-
 
 .col-md-6#oldBurgers, .col-md-6#newBurgers {
   font-family: 'Anton', sans-serif;
   font-size: 32px;
   text-align: center;
-  overflow: scroll;
-
 }
 
+ul {
+  height: 400px;
+  width:650px;
+  overflow: auto;
+}
 .change-de {
   width: 50%;
   margin-bottom: 2.5px;
   background-color: transparent;
-  color: orange;
+  color: black;
 }
 
 input#bu {
-  width: 17.5%;
+  width: 25.5%;
+  max-height: 10%
 }
