@@ -43,4 +43,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * Jerome (Congrats on the baby!)
 * A. Burroughs
-* M. Jowett
+* M. Jowett - [maxjowett](https://github.com/maxjowett)
