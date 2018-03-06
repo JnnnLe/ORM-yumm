@@ -3,7 +3,9 @@
 A burger logger with MySQL, Node, Express, Handlebars and an in-house ORM. Using Node and MySQL to query and route data app, and Handlebars to generate HTML. Add a burger with an input, click submit or press enter, and your burger should appear in the 'New Burgers' list; click an existing burger to push it into the 'Old Burgers' list.
 Deploy link below.
 
-![Alt Text](https://media.giphy.com/media/1xp00uJ2fXx3IYAlGn/giphy.gif)
+## Demo
+
+![Demo](https://media.giphy.com/media/u48BYSdhWLOVBQeMaR/giphy.gif)
 
 ## Getting Started
 
