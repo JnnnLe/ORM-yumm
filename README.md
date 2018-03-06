@@ -1,27 +1,26 @@
 # Burger Application
 
 A burger logger with MySQL, Node, Express, Handlebars and an in-house ORM. Using Node and MySQL to query and route data app, and Handlebars to generate HTML. Add a burger with an input, click submit or press enter, and your burger should appear in the 'New Burgers' list; click an existing burger to push it into the 'Old Burgers' list.
+Deploy link below.
 
-https://media.giphy.com/media/1xp00uJ2fXx3IYAlGn/giphy.gif
+![Alt Text](https://media.giphy.com/media/1xp00uJ2fXx3IYAlGn/giphy.gif)
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine.
 
 ### Prerequisites
-
+```
 1.) Clone this repo
 
-```
 2.) npm i 
 
-```
 3.) In the root directory, run node server.js
-
+````
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+https://jnnnle.github.io/burger-ORM/
 
 ## Built With
 
