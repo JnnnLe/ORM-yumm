@@ -1,17 +1,25 @@
-var mysql = require("mysql");
-var connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "burgerDB"
-});
-connection.connect(function (err) {
-  if (err) {
-    console.err("Error connecting: " + err.stack)
-    return;
-  }
+var mysql = require(“mysql”);
 
-  console.log("Connected as ID: " + connection.threadId);
+var connection;
+if(process.env.JAWSDB_URL) {
+ //Heroku deployment
+   connection = mysql.createConnection(process.env.JAWSDB_URL);
+} else {
+ //local host
+      var connection = mysql.createConnection({
+      host: “localhost”,
+      user: “root”,
+      password: “”,
+      database: “burgersDB”
+    });  
+};
+
+connection.connect(function(err) {
+ if (err) {
+   console.error(“error connecting: ” + err.stack);
+   return;
+ }
+ console.log(“connected as id ” + connection.threadId);
 });
 
 module.exports = connection;
