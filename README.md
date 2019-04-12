@@ -38,9 +38,3 @@ https://jnnnle.github.io/burger-ORM/
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Jerome (Congrats on the baby!)
-* A. Burroughs
-* M. Jowett - [maxjowett](https://github.com/maxjowett)
