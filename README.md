@@ -17,8 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 ````
 
 ## Deployment
-
-https://jnnnle.github.io/burger-ORM/
+https://jnnnle.github.io/ORM-yumm/
 
 ## Built With
 
